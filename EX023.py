@@ -1,0 +1,7 @@
+numero = int(input('Informe um número entre 0 e 9999: '))
+#num = str(numero)
+print('Analisando o número {}'.format(numero))
+print('Unidades: {}'.format(numero // 1 % 10))
+print('Dezenas: {}'.format(numero // 10 % 10))
+print('Centenas: {}'.format(numero // 100 % 10))
+print('Milhares: {}'.format(numero // 1000 % 10))

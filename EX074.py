@@ -1,0 +1,10 @@
+from random import randint
+n1 = randint(1,10)
+n2 = randint(1,10)
+n3 = randint(1,10)
+n4 = randint(1,10)
+n5 = randint(1,10)
+escolhidos = (n1,n2,n3,n4,n5)
+print(f'Os números escolhidos foram {escolhidos}')
+print(f'O maior número sorteado foi {max(escolhidos)}')
+print(f'O menor número sorteado foi {min(escolhidos)}')

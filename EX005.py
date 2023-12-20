@@ -1,0 +1,6 @@
+print('DESAFIO 005')
+print()
+n = int(input('Digite um número: '))
+print('Antecessor: {}'.format(n-1))
+print('Sucessor: {}'.format(n+1))
+print('Analisando o valor {}, seu antecessor é {} e seu sucessor é {}.'.format(n,n-1, n+1))
